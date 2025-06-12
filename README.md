@@ -15,31 +15,6 @@ A secure Single Sign-On (SSO) login application using **Node.js**, **Express.js*
 - 🎯 Follows **RESTful principles** and uses appropriate **HTTP status codes**
 - 🌐 Basic frontend using **HTML + JavaScript** (no framework)
 
----
-
-## 📁 Project Structure
-sso_app/
-├── app.js
-├── .env
-├── config/
-│ ├── db.js
-│ └── passport.js
-├── controllers/
-│ └── authController.js
-├── middleware/
-│ ├── verifyJWT.js
-│ └── validateInput.js
-├── models/
-│ └── userModel.js
-├── routes/
-│ ├── authRoutes.js
-│ └── profileRoutes.js
-├── public/
-│ ├── index.html
-│ └── profile.html
-├── utils/
-│ └── encrypt.js
-
 
 ---
 
